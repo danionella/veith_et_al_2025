@@ -1,9 +1,9 @@
-# Plots for Sound-Evoked Startles in *Danionella cerebrum*
+# Figure 3 & 4
 
 This stand-alone notebook reproduces the plots shown in Figures 3 and 4 of the paper  
 **"Algorithms underlying directional hearing in *Danionella c.* startle behavior."**
 
-👉 For a quick preview, [view the notebook on GitHub](https://github.com/danionella/veith_et_al_2025/blob/main/generate_figures_3_4.ipynb).
+👉 For a quick preview, [open the notebook's static outputs on GitHub](https://github.com/danionella/veith_et_al_2025/blob/main/generate_figures_3_4.ipynb).
 
 ---
 
@@ -30,7 +30,7 @@ No specific hardware is required. The code runs on Windows, macOS, and Linux sys
 3. Run the following commands in your terminal:
 
     ```bash
-    conda create -n veith2025 'python>=3.8' numpy scipy pandas matplotlib jupyter -c conda-forge
+    conda create -n veith2025 'python>=3.8' numpy scipy pandas matplotlib seaborn jupyter -c conda-forge
     conda activate veith2025
     jupyter lab generate_figures_3_4.ipynb
     ```
@@ -43,6 +43,7 @@ Alternatively, you can open the notebook in an existing Jupyter environment afte
 - `scipy`
 - `pandas`
 - `matplotlib`
+- `seaborn`
 
 ---
 
