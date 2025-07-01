@@ -51,4 +51,4 @@ Alternatively, you can open the notebook in an existing Jupyter environment afte
 
 The behavioral dataset used for generating the plots is available at:
 
-🔗 [https://gin.g-node.org/danionella/Veith_et_al_2025/src/master/behavior](https://gin.g-node.org/danionella/Veith_et_al_2025/src/master/behavior)
+🔗 https://gin.g-node.org/danionella/Veith_et_al_2025 
