@@ -26,7 +26,7 @@ No specific hardware is required. The code runs on Windows, macOS, and Linux sys
 ### Installation Instructions
 
 1. Install [conda for Python 3.x](https://github.com/conda-forge/miniforge).
-2. Navigate to the directory containing this file.
+2. Clone the repository and change into the folder containing this README
 3. Run the following commands in your terminal:
 
     ```bash
@@ -35,7 +35,7 @@ No specific hardware is required. The code runs on Windows, macOS, and Linux sys
     jupyter lab generate_figures_3_4.ipynb
     ```
 
-These steps typically take less than 10 minutes.
+These steps typically take less than 10 minutes. The notebook will download ~1.8 GB to your hard drive. The code is computationally cheap, so exectution is primarily limited by your download speed.
 
 Alternatively, you can open the notebook in an existing Jupyter environment after installing the required packages:
 
