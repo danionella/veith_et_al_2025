@@ -1,7 +1,7 @@
 # Figure 3 & 4
 
 This stand-alone notebook reproduces the plots shown in Figures 3 and 4 of the paper  
-**"Algorithms underlying directional hearing in *Danionella c.* startle behavior."**
+**"Algorithms underlying directional hearing in fish"**
 
 👉 For a static preview, [open the notebook's outputs on GitHub](https://github.com/danionella/veith_et_al_2025/blob/main/generate_figures_3_4.ipynb).
 
