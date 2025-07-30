@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vocloc_recorder"
+version = "0.0.1"
+description = "A multi-threaded software that records video and audio using Nidaq cards"
+authors = [
+    { name = "jlab.berlin" },
+]
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["vocloc_recorder", "python"]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/danionella/vocloc_recorder"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]

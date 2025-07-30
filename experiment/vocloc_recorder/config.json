@@ -1,0 +1,88 @@
+{
+  "general": {
+    "encoderPath": "C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe",
+    "logPath": ".\\log.txt",
+    "savePath": "C:\\"
+  },
+  "audio": {
+    "triggerDigital": true,
+    "save": true,
+    "rate": 51200,
+    "clockStr": "cDAQ1",
+    "chStr": [
+      "cDAQ1Mod1/ai0"
+    ],
+    "chStrTrig": "cDAQ1Mod3/port0/line1",
+    "peakAmp": 4,
+    "szChunk": 100000,
+    "playBack": false,
+    "audioDeviceName": "Microsoft Soundmapper - Output"
+  },
+  "video": {
+    "save": true,
+    "framerate": 120,
+    "qmin": 22,
+    "qmax": 22,
+    "bitrate": 250
+  },
+  "preview": {
+    "active": true,
+    "sub_spatial": 1
+  },
+  "trigger": {
+    "chStr": [
+      "cDAQ1Mod3/port0/line2"
+    ],
+    "HIGH": 4,
+    "LOW": 0,
+    "rate": 120,
+    "duration": 1
+  },
+  "camera": {
+    "interface": "Pylon",
+    "exposure": 1.6,
+    "width": 336,
+    "height": 336,
+    "xoff": 1064,
+    "yoff": 860,
+    "triggered": true
+  },
+  "vis": {
+    "camWindowSize": [
+      336,
+      336
+    ]
+  },
+  "audio_out": {
+    "chStr": [
+      "cDAQ1Mod2/ao0",
+      "cDAQ1Mod2/ao1",
+      "cDAQ1Mod2/ao2",
+      "cDAQ1Mod2/ao3"
+    ]
+  },
+  "indepFunc": {
+    "active": false,
+    "className": "MyTest",
+    "allowSaving": true
+  },
+  "videoFunc": {
+    "active": true,
+    "className": "MyLiveBlobOrientation",
+    "sub_spatial": 1,
+    "sub_t": 8,
+    "allowSaving": true
+  },
+  "triggeredFunc": {
+    "active": true,
+    "className": "MyDAQPlaybackAtPositions",
+    "allowSaving": true
+  },
+  "custom_config": {
+    "fn_stimset": "/home/jlab-pc09/Documents/data/recordings/202410DireHearingPosCL_gammatone_1Dphases_freqs/audio/2024-10-18_16-35-03_field/2024-10-18_16-35-03stimset_field.h5",
+    "power_switch_on": 0,
+    "serial_port": "/dev/ttyACM1",
+    "power_switch_delay": 0.075,
+    "biased_playback_map": {"400": 1.79167, "800": 2.05882, "1200": 3, "2000": 6.28378, "5000": 71.42857}
+  }
+}
