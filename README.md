@@ -30,8 +30,8 @@ No specific hardware is required. The code runs on Windows, macOS, and Linux sys
 3. Run the following commands in your terminal:
 
     ```bash
-    conda create -n veith2026 'python>=3.8' numpy scipy pandas matplotlib seaborn jupyter -c conda-forge
-    conda activate veith2026
+    conda create -n veith2025 'python>=3.8' numpy scipy pandas matplotlib seaborn jupyter -c conda-forge
+    conda activate veith2025
     jupyter lab generate_figures_3_4.ipynb
     ```
 
@@ -51,4 +51,4 @@ Alternatively, you can open the notebook in an existing Jupyter environment afte
 
 The behavioral dataset used for generating the plots is available at:
 
-🔗 https://gin.g-node.org/danionella/Veith_et_al_2026 
+🔗 https://gin.g-node.org/danionella/Veith_et_al_2025
