@@ -1,9 +1,9 @@
 # Figure 3 & 4
 
 This stand-alone notebook reproduces the plots shown in Figures 3 and 4 of the paper  
-**"An algorithm underlying directional hearing in fish"**
+[**"An algorithm underlying directional hearing in fish"**](https://doi.org/10.1016/j.cub.2026.02.019)
 
-👉 For a static preview, [open the notebook's outputs on GitHub](https://github.com/danionella/veith_et_al_2025/blob/main/generate_figures_3_4.ipynb).
+👉 For a static preview, [open the notebook's outputs on GitHub](https://github.com/danionella/veith_et_al_2026/blob/main/generate_figures_3_4.ipynb).
 
 ---
 
@@ -11,7 +11,7 @@ This stand-alone notebook reproduces the plots shown in Figures 3 and 4 of the p
 
 You can execute the notebook using a free runtime hosted by Google Research. Simply click the badge below:
 
-<a target="_blank" href="https://colab.research.google.com/github/danionella/veith_et_al_2025/blob/main/generate_figures_3_4.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/danionella/veith_et_al_2026/blob/main/generate_figures_3_4.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -30,8 +30,8 @@ No specific hardware is required. The code runs on Windows, macOS, and Linux sys
 3. Run the following commands in your terminal:
 
     ```bash
-    conda create -n veith2025 'python>=3.8' numpy scipy pandas matplotlib seaborn jupyter -c conda-forge
-    conda activate veith2025
+    conda create -n veith2026 'python>=3.8' numpy scipy pandas matplotlib seaborn jupyter -c conda-forge
+    conda activate veith2026
     jupyter lab generate_figures_3_4.ipynb
     ```
 
@@ -51,4 +51,4 @@ Alternatively, you can open the notebook in an existing Jupyter environment afte
 
 The behavioral dataset used for generating the plots is available at:
 
-🔗 https://gin.g-node.org/danionella/Veith_et_al_2025
+🔗 https://gin.g-node.org/danionella/Veith_et_al_2026
